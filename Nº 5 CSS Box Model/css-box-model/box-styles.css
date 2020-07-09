@@ -1,0 +1,74 @@
+* { /* Universal CSS Selectors */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, p {
+	background-color: #DDE0E3; /* Light gray */
+}
+
+em, strong {
+	background-color: #B2D6FF;
+	display: inline;
+	/* This comes in handy when you’re trying to turn <a> elements into buttons or format <img/> elements (both of these are inline boxes by default). */
+}
+
+/*
+    - Block boxes always appear below the previous block element. This is the “natural” or “static” flow of an HTML document when it gets rendered by a web browser.
+
+    - The width of block boxes is set automatically based on the width of its parent container. In this case, our blocks are always the width of the browser window.
+
+    - The default height of block boxes is based on the content it contains. When you narrow the browser window, the <h1> gets split over two lines, and its height adjusts accordingly.
+
+    - Inline boxes don’t affect vertical spacing. They’re not for determining layout—they’re for styling stuff inside of a block.
+
+    - The width of inline boxes is based on the content it contains, not the width of the parent element.
+*/
+
+h1 {
+	padding: 50px;
+	border-bottom: 1px solid #5D5063; /* size(or stroke) style color */
+}
+
+p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+p {
+	padding: 20px 10px; /* Vertical Horizontal */
+}
+p {
+	padding: 20px 0 20px 10px; /* Top Right Bottom Left */
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+/*
+The most common reasons why you would pick one over the other are (decision b/w Margin & Padding):
+
+    - The padding of a box has a background, while margins are always transparent.
+    - Padding is included in the click area of an element, while margins aren’t.
+    - Margins collapse vertically, while padding doesn’t (we’ll discuss this more in the next section).
+
+*/
+
+strong {
+  margin: 50px; /* margin only on left & right side */
+  /* padding: 50px; pads all the sides */
+}
+
+div {
+	color: #FFFFFF;
+	background-color: #5995DA;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #5D6063;
+	border-radius: 5px;
+	
+	width: 200px;
+	box-sizing: border-box;
+	margin: 20px auto; /* Vertical Horizontal */
+}

@@ -1,0 +1,60 @@
+body {
+	color: #414141; /* Dark gray */
+	background-color: #EEEEEE; /* Light gray */
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: normal;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+ol {
+	list-style-type: lower-roman;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: left;
+}
+
+/* (You probably shouldn't do this) */
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/*
+The “cascading” part of CSS is due to the fact that rules cascade down from multiple sources.
+
+The CSS hierarchy for every web page looks like this:
+
+    - The browser’s default stylesheet
+    - User-defined stylesheets
+    - External stylesheets (that’s us)
+    - Page-specific styles (that’s also us)
+	- Inline styles (that could be us, but it never should be)
+	
+This is ordered from least to most precedence, which means styles defined in each subsequent step override previous ones. 
+
+*/

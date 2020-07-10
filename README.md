@@ -4,7 +4,7 @@ Practicing web development from: <https://www.internetingishard.com/>
 
 You can find:
 
-- Daily tasks [here][2].
+- Daily tasks [here][1].
 - Abijith's solutions on [his branch][2].
 - Aswin's Solutions on [his branch][3].
 - George's solutions on [his branch][4].

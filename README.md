@@ -2,6 +2,8 @@
 
 Practicing web development from: <https://www.internetingishard.com/>
 
+## Resources
+
 You can find:
 
 - Daily tasks [here][1].
@@ -19,3 +21,14 @@ You can find:
 [5]: https://github.com/joe733/interneting-is-hard/tree/jaseel
 [6]: https://github.com/joe733/interneting-is-hard/tree/jovial
 [7]: https://github.com/joe733/interneting-is-hard/tree/sruthi
+
+## Insturctions
+
+> All this is possible simple single clicks if you're using an editor like VSCode / Atom or else you'll have to rely on command line.
+
+- The [tasks branch][1] holds tasks like `Tasks-001`, `Task-002`... etc.
+- You've got to create a branch (in your name).
+- Add your solutions to your respective branches and commit it.
+- Make your branch upstream (just one time) and push your changes.
+
+> See [my branch](https://github.com/joe733/interneting-is-hard/tree/jovial) for refrences.

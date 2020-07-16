@@ -12,7 +12,6 @@ You can find:
 - George's solutions on [his branch][4].
 - Jaseeludeen's solutions on [his branch][5].
 - Jovial's solutions on [his branch][6].
-- Sruthi's solutions on [her branch][7].
 
 [1]: https://github.com/joe733/interneting-is-hard/tree/tasks
 [2]: https://github.com/joe733/interneting-is-hard/tree/abijith
@@ -20,7 +19,6 @@ You can find:
 [4]: https://github.com/joe733/interneting-is-hard/tree/george
 [5]: https://github.com/joe733/interneting-is-hard/tree/jaseel
 [6]: https://github.com/joe733/interneting-is-hard/tree/jovial
-[7]: https://github.com/joe733/interneting-is-hard/tree/sruthi
 
 ## Insturctions
 
